@@ -5,7 +5,11 @@ DEPENDENCIES
   opsworks_sidekiq
     git: git://github.com/drakerlabs/opsworks_sidekiq.git
     revision: 7879bc614f36c25ba93712e60d8a3711885bdd3a
+  unicorn
+    git: git://github.com/hyperventures/hyper-opsworks-unicorn.git
+    revision: 0968d2eece069ed5a22d6df31d42b6cdf3340d39
 
 GRAPH
   opsworks_rails_secrets (0.1.0)
   opsworks_sidekiq (0.0.0)
+  unicorn (1.0.0)
