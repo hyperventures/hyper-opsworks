@@ -1,6 +1,0 @@
-[submodule "opsworks_sidekiq"]
-	path = opsworks_sidekiq
-	url = https://github.com/drakerlabs/opsworks_sidekiq.git
-[submodule "opsworks_rails_secrets"]
-	path = opsworks_rails_secrets
-	url = https://github.com/hyperventures/opsworks_rails_secrets.git
