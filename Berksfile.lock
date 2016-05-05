@@ -1,15 +1,29 @@
 DEPENDENCIES
+  apt (~> 2.4.0)
+  opsworks_kcl
+    git: git://github.com/omarramos/opsworks_hyper_kcl.git
+    revision: 61f68949931bbe3aba90338d443ed830f1910a94
   opsworks_rails_secrets
     git: git://github.com/hyperventures/opsworks_rails_secrets.git
     revision: 4fcc5c875649563c5e67a14305ce708419f6b9de
   opsworks_sidekiq
-    git: git://github.com/drakerlabs/opsworks_sidekiq.git
-    revision: 7879bc614f36c25ba93712e60d8a3711885bdd3a
+    git: git://github.com/omarramos/opsworks_sidekiq.git
+    revision: d7a756c418c7ff5d2f638700611f95e96c4ca9ce
+  scout
+    git: git://github.com/scoutapp/scout_cookbooks.git
+    revision: 92f2924191aede7f8a75b715f8db32ebb3691d9d
   unicorn
     git: git://github.com/hyperventures/hyper-opsworks-unicorn.git
     revision: 0968d2eece069ed5a22d6df31d42b6cdf3340d39
+  yum (~> 3.13.0)
 
 GRAPH
+  apt (2.4.0)
+  opsworks_kcl (0.0.0)
   opsworks_rails_secrets (0.1.0)
   opsworks_sidekiq (0.0.0)
+  scout (0.4.5)
+    apt (>= 0.0.0)
+    yum (>= 0.0.0)
   unicorn (1.0.0)
+  yum (3.13.0)
