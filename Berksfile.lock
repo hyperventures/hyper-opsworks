@@ -1,8 +1,5 @@
 DEPENDENCIES
   apt (~> 2.4.0)
-  opsworks_kcl
-    git: git://github.com/omarramos/opsworks_hyper_kcl.git
-    revision: 61f68949931bbe3aba90338d443ed830f1910a94
   opsworks_rails_secrets
     git: git://github.com/hyperventures/opsworks_rails_secrets.git
     revision: 4fcc5c875649563c5e67a14305ce708419f6b9de
@@ -13,24 +10,13 @@ DEPENDENCIES
     git: git://github.com/omarramos/papertrail-cookbook.git
     revision: fa6a5304ca8c2b51419d28897cb94fb6c0c7697a
     tag: chef-11.10
-  scout
-    git: git://github.com/scoutapp/scout_cookbooks.git
-    revision: 92f2924191aede7f8a75b715f8db32ebb3691d9d
-  unicorn
-    git: git://github.com/hyperventures/hyper-opsworks-unicorn.git
-    revision: 0968d2eece069ed5a22d6df31d42b6cdf3340d39
   yum (~> 3.13.0)
 
 GRAPH
   apt (2.4.0)
-  opsworks_kcl (0.0.0)
   opsworks_rails_secrets (0.1.0)
   opsworks_sidekiq (0.0.0)
   papertrail (0.0.7)
     rsyslog (= 2.2.0)
   rsyslog (2.2.0)
-  scout (0.4.5)
-    apt (>= 0.0.0)
-    yum (>= 0.0.0)
-  unicorn (1.0.0)
   yum (3.13.0)
