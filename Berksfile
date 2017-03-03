@@ -7,3 +7,4 @@ cookbook 'opsworks_rails_secrets', git: 'git://github.com/hyperventures/opsworks
 cookbook 'unicorn', git: 'git://github.com/hyperventures/hyper-opsworks-unicorn.git'
 cookbook 'opsworks_kcl', git: 'git://github.com/omarramos/opsworks_hyper_kcl.git'
 cookbook 'scout', git: 'git://github.com/scoutapp/scout_cookbooks.git'
+cookbook 'papertrail', git: 'git://github.com/omarramos/papertrail-cookbook.git', tag: 'chef-11.10'
